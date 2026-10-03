@@ -1,0 +1,11 @@
+{
+  "name": "tech-and-nexora",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 3000 --bind 0.0.0.0",
+    "dev": "python3 -m http.server 3000 --bind 0.0.0.0",
+    "preview": "python3 -m http.server 3000 --bind 0.0.0.0",
+    "build": "echo 'Static site: no build step required.'"
+  }
+}
